@@ -7,15 +7,22 @@
 
 ### Required files:
 GSE167377 dataset from GEO Database
+
 single_sample_analysis.py to finding marker genes from single sample
+
 integration_of_all_samples.py to analyse cellular diversity in all the samples from the dataset
 
 ### Required packages: 
 scanpy
+
 pandas
+
 numpy
+
 bbknn
+
 leidenalg
+
 louvain
 
 ### Execution:
