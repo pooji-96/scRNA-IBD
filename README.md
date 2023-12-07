@@ -3,7 +3,7 @@
 ## Programming Language: Python 
 ## Date: Dec 7th 2023
 ## Discription:
-   This repository is designed to perform visualization of cellular diversity between different samples from the dataset. This script is done using jupyter notebook.
+   This repository is designed to perform visualization of cellular diversity between different conditions within the dataset. This script is done using Python programming language.
 
 ### Required files:
 GSE167377 dataset from GEO Database
