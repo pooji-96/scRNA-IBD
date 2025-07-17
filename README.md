@@ -1,14 +1,12 @@
-# ADV_SEM_Project
+# scRNA-IBD
 ## Name: Poojitha Kolli
 ## Programming Language: Python 
 ## Date: Dec 7th 2023
 ## Discription:
-   This repository is designed to perform visualization of cellular diversity between different conditions within the dataset. This script is done using Python programming language.
+   This repository contains a Python script for investigating the cellular diversity of immune and non-immune cells in the bursa of Fabricius (BF) of chickens infected with Infectious Bursal Disease Virus (IBDV) using single-cell RNA sequencing (scRNA-seq) data. Using the scanpy Python package, the workflow includes quality control, normalization, dimensionality reduction, batch correction, clustering, and cell type annotation based on marker genes. The dataset analyzed (GSE167377) covers control and IBDV-infected samples from 2- and 3-week-old chickens. Visualization using UMAP highlights the heterogeneity and response of BF cells to IBDV infection.
 
 ### Required files:
-GSE167377 dataset from GEO Database
-
-single_sample_analysis.py to finding marker genes from single sample
+GSE167377 dataset downloaded from GEO Database
 
 integration_of_all_samples.py to analyse cellular diversity in all the samples from the dataset
 
@@ -33,7 +31,6 @@ louvain
           
 3. Run
          
-          single_sample_analysis.py
           integration_of_all_samples.py
 
 4. Once execution is complete check output
