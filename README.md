@@ -4,7 +4,7 @@ Name: Poojitha Kolli
 Programming Language: Python 
 
 Date: Dec 7th 2023
-### Discription:
+### Description:
    This repository contains a Python script for investigating the cellular diversity of immune and non-immune cells in the bursa of Fabricius (BF) of chickens infected with Infectious Bursal Disease Virus (IBDV) using single-cell RNA sequencing (scRNA-seq) data. Using the scanpy Python package, the workflow includes quality control, normalization, dimensionality reduction, batch correction, clustering, and cell type annotation based on marker genes. The dataset analyzed (GSE167377) covers control and IBDV-infected samples from 2- and 3-week-old chickens. Visualization using UMAP highlights the heterogeneity and response of BF cells to IBDV infection.
 
 #### Required files:
